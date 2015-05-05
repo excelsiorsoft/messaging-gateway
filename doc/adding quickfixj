@@ -1,0 +1,5 @@
+#!/bin/sh
+mvn install:install-file -Dfile=quickfixj-core-1.5.3.jar -DgroupId=quickfixj \
+    -DartifactId=quickfixj-core -Dversion=1.5.3 -Dpackaging=jar
+mvn install:install-file -Dfile=quickfixj-all-1.5.3.jar -DgroupId=quickfixj \
+    -DartifactId=quickfixj-all -Dversion=1.5.3 -Dpackaging=jar
